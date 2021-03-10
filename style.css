@@ -131,3 +131,38 @@ nav ul li a:hover {
         width: 100%;
     }
 }
+
+.flex-container {
+    display: flex;
+    background-color: chartreuse;
+    margin : 10 px;
+    padding: 10px;
+}
+
+.flex-child {
+    
+    background-color: cyan;
+    border: 2px solid black;
+    margin : 10 px;
+    padding: 10px;
+    height : 200px;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+.grid-container{
+    display: grid;
+    background-color: rgb(238, 148, 12);
+    margin : 10 px;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: rgba(130, 94, 214, 0.89);
+    border: 2px solid black;
+    margin : 10 px;
+    padding: 10px;
+    height : 200px;
+}
