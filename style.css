@@ -1,133 +1,171 @@
-html {
-    scroll-behavior: smooth;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.container {
-    max-width: auto;
-    margin: auto;
-    /**    font-family: 'DotGothic16', sans-serif;
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container {
+        max-width: auto;
+        margin: auto;
+        /**    font-family: 'DotGothic16', sans-serif;
 
     font-family: 'Shippori Mincho', serif;*/
-}
-
-.row {
-    width: 100%;
-}
-
-.row::after {
-    content: '';
-    clear: both;
-    display: block;
-}
-
-[class*="col-"] {
-    float: left;
-    padding: 3px;
-}
-
-
-/**Navigation header starts**/
-
-.navigation-header {
-    background: #2cb2e7;
-    padding: 0% 1%;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    padding: 0px 20px;
-    transition: .4s;
-    text-transform: capitalize;
-    font-weight: lighter;
-    font-size: 0.9rem;
-    font-family: 'DotGothic16', sans-serif;
-}
-
-nav ul li a:hover {
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: black;
-}
-
-
-/**Navigation header ends**/
-
-
-/**header starts **/
-
-.patient-section {
-    background-color: rgb(172, 222, 241);
-    padding: 0% 1%;
-    text-align: left;
-}
-
-.form-content input[type="text"] {
-    width: 10%;
-}
-
-
-/**header ends **/
-
-@media only screen and (min-width: 992px) {
-    /* Large screen column width */
-    .col-lg-1 {
-        width: 8.33%;
     }
-    .col-lg-2 {
-        width: 16.66%;
-    }
-    .col-lg-3 {
-        width: 25%;
-    }
-    .col-lg-4 {
-        width: 33.33%;
-    }
-    .col-lg-5 {
-        width: 41.66%;
-    }
-    .col-lg-6 {
-        width: 50%;
-    }
-    .col-lg-7 {
-        width: 58.33%;
-    }
-    .col-lg-8 {
-        width: 66.66%;
-    }
-    .col-lg-9 {
-        width: 75%;
-    }
-    .col-lg-10 {
-        width: 83.33%;
-    }
-    .col-lg-11 {
-        width: 91.66%;
-    }
-    .col-lg-12 {
+    
+    .row {
         width: 100%;
     }
-}
+    
+    .row::after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+    
+    [class*="col-"] {
+        float: left;
+        padding: 3px;
+    }
+    /**Navigation header starts**/
+    
+    .navigation-header {
+        background: #2cb2e7;
+        padding: 0% 1%;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    nav ul li {
+        float: left;
+    }
+    
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 0px 20px;
+        transition: .4s;
+        text-transform: capitalize;
+        font-weight: lighter;
+        font-size: 0.9rem;
+        font-family: 'DotGothic16', sans-serif;
+    }
+    
+    nav ul li a:hover {
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: black;
+    }
+    /**Navigation header ends**/
+    /**header starts **/
+    
+    .patient-section {
+        background-color: rgb(172, 222, 241);
+        padding: 0;
+        text-align: left;
+    }
+    
+    .form-content {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 0 5px;
+        padding: 3px;
+    }
+    
+    .form-content>div {
+        /**  background-color: yellow;**/
+        text-align: center;
+        padding: 5px 0;
+    }
+    
+    .form-content>div input[type="text"] {
+        width: 60%;
+        border: 1px solid black;
+        text-align: center;
+    }
+    
+    .form-content>div select {
+        width: 50%;
+        padding: auto;
+        border: none;
+        border-radius: 4px;
+        border-color: black;
+    }
+    
+    #age,
+    #reg-no {
+        width: 30%;
+    }
+    
+    .card {
+        border: 1px solid skyblue;
+        text-align: left;
+        padding: 10px;
+        box-shadow: 0px 0px 5px 5px skyblue;
+        border-radius: 5px;
+    }
+    
+    .card-body {
+        height: auto;
+        ;
+    }
+    
+    .card-body p {
+        font-family: 'Shippori Mincho', serif;
+        font-size: 0.9rem;
+    }
+    /**header ends **/
+    
+    @media only screen and (min-width: 992px) {
+        /* Large screen column width */
+        .col-lg-1 {
+            width: 8.33%;
+        }
+        .col-lg-2 {
+            width: 16.66%;
+        }
+        .col-lg-3 {
+            width: 25%;
+        }
+        .col-lg-4 {
+            width: 33.33%;
+        }
+        .col-lg-5 {
+            width: 41.66%;
+        }
+        .col-lg-6 {
+            width: 50%;
+        }
+        .col-lg-7 {
+            width: 58.33%;
+        }
+        .col-lg-8 {
+            width: 66.66%;
+        }
+        .col-lg-9 {
+            width: 75%;
+        }
+        .col-lg-10 {
+            width: 83.33%;
+        }
+        .col-lg-11 {
+            width: 91.66%;
+        }
+        .col-lg-12 {
+            width: 100%;
+        }
+    }

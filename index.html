@@ -9,6 +9,9 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <title>Dr.AI</title>
 </head>
 
@@ -45,39 +48,86 @@
             <!--Header main starts-->
             <section class="patient-section">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-9">
                         <form class="form-content">
+                            <div>
+                                <label for="name">Name : </label>
+                                <input type="text" name="name" id="name">
+                            </div>
+                            <div>
+                                <label for="age">Age : </label>
+                                <input type="text" name="age" id="age">
+                            </div>
+                            <div>
+                                <label for="sex">Sex : </label>
+                                <select name="sex" id="sex">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="address">Address : </label>
+                                <input type="text" name="address" id="address">
+                            </div>
+                            <div>
+                                <label for="mobile">Mobile : </label>
+                                <input type="text" name="mobile" id="mobile">
 
-                            <label for="name">Name : </label>
-                            <input type="text" name="name" id="name">
-                            <label for="age">Age : </label>
-                            <input type="text" name="age" id="age">
-                            <label for="sex">Sex : </label>
-                            <select name="sex" id="sex">
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-                                <option value="other">Other</option>
-                            </select>
-                            <label for="address">Address : </label>
-                            <input type="text" name="address" id="address">
+                            </div>
+                            <div>
 
-                            <label for="mobile">Mobile : </label>
-                            <input type="text" name="mobile" id="mobile">
-                            <label for="reg-no">Reg No</label>
-                            <input type="text" name="reg-no" id="reg-no">
-                            <input type="text" name="appointment" id="appointment">Appointment
-                            <label for="date">Date : </label>
-                            <input type="date" name="date" id="date">
+                                <label for="reg-no">Reg No : </label>
+                                <input type="text" name="reg-no" id="reg-no">
 
+                            </div>
+                            <div>
+                                <input type="text" name="appointment" id="appointment" placeholder="Appointment">
+                            </div>
+
+                            <div>
+                                <label for="date">Date : </label>
+                                <input type="date" name="date" id="date">
+
+                            </div>
                         </form>
 
-
                     </div>
-                    <div class="col-lg-4">
+
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="card-body">
+                                        <i class="material-icons" title="Preview">preview</i>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="card-body">
+                                        <i class="material-icons" title="Save & Print">print</i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="card-body">
+                                        <i class="material-icons" title="Save & Print Without Header">description</i>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="card-body">
+                                        <i class="material-icons" title="Save">save</i>
+
+                                    </div>
+                                </div>
 
 
+                            </div>
+                        </div>
                     </div>
+
             </section>
+
 
 
 
