@@ -137,21 +137,52 @@ nav ul li a:hover {
     background-color: chartreuse;
     margin : 10 px;
     padding: 10px;
+
 }
 
 .flex-child {
-    
+    flex: 1;
     background-color: cyan;
     border: 2px solid black;
-    margin : 10 px;
+    margin : 20 px;
     padding: 10px;
-    height : 200px;
+    height : 700px;
 }  
 
 .flex-child:first-child {
     margin-right: 20px;
 } 
-
+.flex-container-dx-cc-oe{
+    display: flex;
+    background-color: rgb(0, 255, 128);
+    margin : 10 px;
+    padding: 10px;
+    flex-direction: column;
+}
+.flex-child-dx{
+    flex:2;
+    background-color: rgb(217, 255, 0);
+    border: 2px solid rgb(240, 11, 11);
+    margin : 10 px;
+    padding: 10px;
+    height: 200px;
+    line-height: 60px;
+}
+.flex-child-cc{
+    flex:1;
+    background-color: cyan;
+    border: 2px solid black;
+    margin : 10 px;
+    padding: 10px;
+}
+.flex-child-oe{
+    flex:1;
+    background-color: cyan;
+    border: 2px solid black;
+    margin : 10 px;
+    padding: 10px;
+}
+/*
 .grid-container{
     display: grid;
     background-color: rgb(238, 148, 12);
@@ -165,4 +196,4 @@ nav ul li a:hover {
     margin : 10 px;
     padding: 10px;
     height : 200px;
-}
+}*/
