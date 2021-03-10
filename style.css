@@ -15,6 +15,7 @@
     .container {
         max-width: auto;
         margin: auto;
+        background-color: rgb(61, 123, 148);
         /**    font-family: 'DotGothic16', sans-serif;
 
     font-family: 'Shippori Mincho', serif;*/
@@ -121,14 +122,106 @@
     
     .card-body {
         height: auto;
-        ;
-    }
-    
-    .card-body p {
-        font-family: 'Shippori Mincho', serif;
-        font-size: 0.9rem;
     }
     /**header ends **/
+    /**main starts**/
+    /**dx-cc-oe-ix-drug-history section starts**/
+    
+    .dx-cc-oe-ix-drug-history {
+        background-color: skyblue;
+        text-align: left;
+        padding: 0px;
+        font-family: 'Shippori Mincho', serif;
+    }
+    
+    .DX {
+        padding: 5px 5px;
+    }
+    
+    .DX>input[type="text"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+    
+    .CC {
+        padding: 5px 5px;
+    }
+    
+    .CC>textarea {
+        width: 100%;
+        padding: 5px 10px;
+        height: 200px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        text-align: left;
+    }
+    
+    .OE h3 {
+        font-family: 'Shippori Mincho', serif;
+        text-decoration: underline;
+        color: black;
+        font-weight: bolder;
+    }
+    
+    .OE-form {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-gap: 0 5px;
+        padding: 3px;
+    }
+    
+    .OE-form>div {
+        text-align: left;
+        padding: 5px 0;
+    }
+    
+    .OE-form>div input[type="text"] {
+        width: 100%;
+        padding: 5px 10px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        text-align: left;
+    }
+    
+    .IX {
+        padding: 5px 5px;
+    }
+    
+    .IX>textarea {
+        width: 100%;
+        padding: 5px 10px;
+        height: 100px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        text-align: left;
+    }
+    
+    .Drug-history {
+        padding: 5px 5px;
+    }
+    
+    .Drug-history>textarea {
+        width: 100%;
+        padding: 5px 10px;
+        height: 100px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        text-align: left;
+    }
+    /**dx-cc-oe-ix-drug-history ends**/
+    /**main ends***/
     
     @media only screen and (min-width: 992px) {
         /* Large screen column width */
