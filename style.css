@@ -221,6 +221,47 @@
         text-align: left;
     }
     /**dx-cc-oe-ix-drug-history ends**/
+
+    /* add medicine section */
+    .add-medicine {
+        background-color: rgb(217, 224, 213);
+        text-align: left;
+        padding: 0px;
+        font-family: 'Shippori Mincho', serif;
+    }
+    
+    .RX {
+        padding: 5px 5px;
+    }
+    
+    .RX>input[type="text"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+
+    .medicines {
+        padding: 5px 5px;
+    }
+    
+    .medicines>input[type="text"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        height: 400px;
+        background-color: azure;
+    }
+    
+
+    /* add medicine section */
+
+
     /**main ends***/
     
     @media only screen and (min-width: 992px) {
