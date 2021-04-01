@@ -283,11 +283,11 @@
     /* add medicine section */
     .suggest {
         padding: 5px 5px;
-        background-color: green;
+        /*background-color: rgb(255, 255, 255);*/
         height:200px
     }
     .s2{
-        background-color: greenyellow;
+        background-color: rgb(255, 255, 255);
         height: 199px
     }
     /**main ends***/
