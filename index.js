@@ -1,4 +1,4 @@
-function randomStringDisplay() {
+function randomStringDisplay( input) {
     var str = ["Serum Ige ", " CBC ", " Chest CT ", "USG whole abdomen ", "GeneXpert for TB ", "MRI whole skull ", "Endoscopy ", "Urine culture ", "ICT for TB "];
     var items = document.querySelectorAll("#tests li");
     var tab = [];
@@ -37,12 +37,42 @@ function myfunction(x) {
 
 
 
-var input = document.querySelector('#rx');
-input.addEventListener('keyup', (e) => {
+var inputRx = document.querySelector('#rx');
+inputRx.addEventListener('keyup', (e) => {
     if (e.keyCode == 13) {
-        var x = input.value;
+        var x = inputRx.value;
         console.log(x);
-        randomStringDisplay();
+        randomStringDisplay(x);
+        e.preventDefault();
+    }
+});
+
+var inputDx = document.querySelector('#dx');
+inputDx.addEventListener('keyup', (e) => {
+    if (e.keyCode == 13) {
+        var x = inputDx.value;
+        console.log(x);
+        randomStringDisplay(x);
+        e.preventDefault();
+    }
+});
+
+var inputCc = document.querySelector('#cc');
+inputCc.addEventListener('keyup', (e) => {
+    if (e.keyCode == 13) {
+        var x = inputCc.value;
+        console.log(x);
+        randomStringDisplay(x);
+        e.preventDefault();
+    }
+});
+
+var inputIx = document.querySelector('#ix');
+inputIx.addEventListener('keyup', (e) => {
+    if (e.keyCode == 13) {
+        var x = inputIx.value;
+        console.log(x);
+        randomStringDisplay(x);
         e.preventDefault();
     }
 });
