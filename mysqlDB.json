@@ -1,0 +1,9 @@
+{
+    "Login": {"host":"localhost","user":"root","password":"endeavour"},
+    "CreateDatabase" : {
+        "CREATE DATABASE IF NOT EXISTS": "TenantInfo"
+    },
+    "Use Database":{
+        "Use":"TenantInfo"
+    }
+}
